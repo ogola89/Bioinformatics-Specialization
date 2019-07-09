@@ -20,5 +20,6 @@ def ApproximatePatternCount(Genome, Pattern, d=0):
     # your code here
     return count
 
-#Example:
-print (ApproximatePatternCount('CATGCCATTCGCATTGTCCCAGTGA', 'CCC',5))
+#Example below prints 6 approximate matches
+print (ApproximatePatternCount('CATGCCATTCGCATTGTCCCAGTGA', 'CCC',1))
+
